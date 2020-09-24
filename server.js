@@ -51,4 +51,8 @@ app.get('/persona', function(req, res) {
     res.send(persona);
 })
 
-app.listen(port, () => console.log(`Escuchando peticiones en el puerto ${ port }`));
+//app.listen(port, () => console.log(`Escuchando peticiones en el puerto ${ port }`));
+
+app.listen(port, () => {
+    console.log(`Escuchando peticiones en el puerto ${port}`);
+});
